@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-color: black;
+    width: auto;
+}
+
+.container{
+    height: auto;
+    width: 1024px; 
+    margin: 0 auto;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 55px;
+   
+}
+
+.menu li{
+    list-style: none;
+    font-size: 700;
+    padding-left: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+ }
+ .menu a {
+    text-decoration: none;
+    color: white;
+ }
+
+.menu > a{
+     font-weight: bold;
+     align-items: center;
+     display: block;
+     
+}
+ .color--logo{
+     color: #24ba9f;
+}
+
+.slider{
+    width: auto;
+    height: 505px;
+    background-image: linear-gradient(white,#d1d0d8);
+}
+
+.slider ul li {
+    display: flex;
+}
+.container ul li h2 {
+    font-weight: 400;
+    font-size: 45px;
+}
+.slider-content{
+    display: flex;
+    align-items: flex-start;
+}
+.slider-content-title{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.slider-content-title h2{
+    margin-top: 85px;
+}
+.slider-content img{
+    margin-top: 30px;
+}
+
+.slider-content-title p {
+    text-align: center;
+    margin-top: 30px;
+    align-content:center;
+}
+.slider-content h2{
+    text-align: center;
+}
+
+.slider-content-title a{
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    display:inline-block;
+    text-align: center;
+    background-color: #24ba9f;
+    align-self: center;
+}
+
