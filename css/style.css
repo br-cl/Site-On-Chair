@@ -302,7 +302,7 @@ ul li:hover .dropdown {
     border: 1px solid rgba(0, 0, 0, 0.192);
     background-color: #f9f9f9;
     width: 308px;
-    height: 460px;
+    height: 420px;
     z-index: 0;
     display: absolute;
     margin-top: 130px; 
@@ -314,6 +314,30 @@ ul li:hover .dropdown {
     text-align: center;
     margin-top: 35px;
 }
+.circleOne{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    top: -420px;
+    left: 128px;
+}
+
+.circle_two{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.192);
+    position: relative;
+    z-index: 2;
+    top: 9px;
+    left: 10px;
+}
+
+
 .first-circle p {
     font-size: 2.9rem;
     color: rgba(0, 0, 0, 0.292);
@@ -331,7 +355,7 @@ ul li:hover .dropdown {
 }
 
 
-.first-circle p:first-child::after{
+.first-circle .priceOne::after{
     content: "99";
     font-size: 1rem;
     z-index: 1;
@@ -345,21 +369,274 @@ ul li:hover .dropdown {
     margin-left: 17px;
     margin-top: 6px;
 }
+.first-box p:nth-child(3){
+    background-color: #e4e4e4;
+    width: auto;
+    height: 30px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.first-box p:nth-child(4){
+    background-color: #f1f1f1;
+    width: auto;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
 
+.first-box p:nth-child(5){
+    background-color: #24ba9f;
+    width: 100px;
+    color: white;
+    border-radius: 10%;
+    height: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: auto;
+    margin-top: 90px;
+}
+/* Second Box*/
 .second-box{
-    border: 1px solid rgba(0, 0, 0, 0.192);
+    border: 1px solid #24ba9f;
+    background-color: #24ba9f;
     width: 308px;
-    height: 460px;
+    height: 420px;
     z-index: 0;
-    display: absolute; 
+    display: absolute;
     margin-top: 130px; 
 }
+.second-box h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 35px;
+}
+.circleOne-two{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #24ba9f;
+    position: relative;
+    z-index: 1;
+    top: -420px;
+    left: 128px;
+}
+
+.circletwo-two{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: white;;
+    position: relative;
+    z-index: 2;
+    top: 9px;
+    left: 10px;
+}
+
+
+.two-circle p {
+    font-size: 2.7rem;
+    color: #24ba9f;
+    margin-left: 22px;
+    margin-top: 25px;
+}
+.two-circle{
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.two-circle p:first-child::after{
+    content: "99";
+    font-size: 1rem;
+    z-index: 1;
+    position: relative;
+    left: 0px;
+    top: -28px;
+}
+
+.two-circle p:nth-child(2) {
+    font-size: 1rem;
+    color: #24ba9f;
+    margin-left: 17px;
+    margin-top: 6px;
+}
+.second-box p:nth-child(3){
+    background-color: #e4e4e4;
+    width: auto;
+    height: 30px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.second-box p:nth-child(4){
+    background-color: #f1f1f1;
+    width: auto;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.second-box p:nth-child(5){
+    background-color: #e4e4e4;;
+    width: auto;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.second-box p:nth-child(6){
+    background-color: white;
+    width: 100px;
+    color: #24ba9f;
+    border-radius: 10%;
+    height: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: auto;
+    margin-top: 60px;
+}
+/* Third Box */
+
+
 .third-box{
     border: 1px solid rgba(0, 0, 0, 0.192);
+    background-color: #f9f9f9;
     width: 308px;
-    height: 460px;
+    height: 420px;
     z-index: 0;
-    display: absolute; 
+    display: absolute;
     margin-top: 130px; 
+}
+.third-box h2{
+    color: #24ba9f;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 35px;
+}
+.circleOne-third{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    top: -420px;
+    left: 128px;
+}
+
+.circle_two-third{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.192);
+    position: relative;
+    z-index: 2;
+    top: 9px;
+    left: 10px;
+}
+
+
+.third-circle p {
+    font-size: 2.7rem;
+    color: rgba(0, 0, 0, 0.292);
+    margin-left: 13px;
+    margin-top: 25px;
+}
+.third-circle{
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.third-circle p:first-child::after{
+    content: "00";
+    font-size: 1rem;
+    z-index: 1;
+    position: relative;
+    left: 0px;
+    top: -28px;
+}
+
+.third-circle p:nth-child(2) {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.292);
+    margin-left: 17px;
+    margin-top: 6px;
+}
+.third-box p:nth-child(3){
+    background-color: #e4e4e4;
+    width: auto;
+    height: 30px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.third-box p:nth-child(4){
+    background-color: #f1f1f1;
+    width: auto;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.third-box p:nth-child(5){
+    background-color: #e4e4e4;;
+    width: auto;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.third-box p:nth-child(6){
+    background-color: #f1f1f1;
+    width: auto;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.392);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.third-box p:nth-child(7){
+    background-color: #24ba9f;
+    width: 100px;
+    color: white;
+    border-radius: 10%;
+    height: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: auto;
+    margin-top: 30px;
 }
 
