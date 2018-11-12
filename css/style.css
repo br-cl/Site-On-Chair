@@ -299,7 +299,7 @@ ul li:hover .dropdown {
 }
 
 .box {
-    
+
 }
 
 .first-box{
@@ -327,7 +327,7 @@ ul li:hover .dropdown {
     position: relative;
     z-index: 1;
     top: -420px;
-    left: 128px;
+    left: calc(50% - 20px);
 }
 
 .circle_two{
