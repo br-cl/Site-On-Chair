@@ -298,6 +298,10 @@ ul li:hover .dropdown {
     
 }
 
+/* 
+ Te trzy boksy które masz w tej sekcji powinny
+ być stylowane jedną klasą.
+*/
 .box {
 
 }
@@ -327,6 +331,7 @@ ul li:hover .dropdown {
     position: relative;
     z-index: 1;
     top: -420px;
+    /* Takie coś śmiga */
     left: calc(50% - 20px);
 }
 
