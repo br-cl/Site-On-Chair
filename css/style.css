@@ -188,6 +188,7 @@ ul li:hover .dropdown {
     justify-content: space-between;
 }
 
+
 .first-picture {
     width: 328px;
     height: 228px;
@@ -269,7 +270,7 @@ ul li:hover .dropdown {
     margin-top: 50px;
     background-color: #f1f1f1;
     width: auto;
-    height: 650px;
+    height: 600px;
     position: relative;
 }
 
@@ -579,7 +580,7 @@ ul li:hover .dropdown {
     font-size: 1rem;
     z-index: 1;
     position: relative;
-    left: 0px;
+    left: 0;
     top: -28px;
 }
 
@@ -639,4 +640,62 @@ ul li:hover .dropdown {
     margin: auto;
     margin-top: 30px;
 }
+
+.contactForm{
+    display: flex;
+}
+
+.labels{
+    margin-top: 10%;
+}
+textarea {
+    resize: none;
+    height: 120px;
+  }
+  input[type=text], select, textarea {
+    width: 550px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit img{
+    margin-top: 50px;
+}
+
+label {
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding-left: 55px;
+  margin-top: :20px;
+  margin-right: 10px;
+}
+
+label:before {  
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;  
+  left: 0;
+}
+
+input[type=checkbox] {  
+  display: none;  
+}
+
+.checkbox label:before {
+ border: 1px solid black;
+ width: 50px;
+ height: 50px;
+margin-top: 2px;
+}
+
+input[type=checkbox]:checked + label:before {  
+  background: url('file:///D:/Warsztat_Site_On_Chair/Site-On-Chair/images/form_ok.jpg') left center no-repeat;  
+} 
+
 
