@@ -3,6 +3,17 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+ul.sliders{
+    list-style: none;
+}
+
+ul.sliders li.slider-content{
+    display: none;
+}
+
+ul.sliders li.slider-content.visible{
+    display: flex;
+}
 
 header {
     background-color: black;
@@ -107,7 +118,7 @@ ul li:hover .dropdown {
 }
 
 .slider ul li {
-    display: flex;
+    /*display: flex;*/
 }
 
 .slider-content {
@@ -298,15 +309,24 @@ ul li:hover .dropdown {
     justify-content: space-between;
     
 }
-
-.first-box{
-    border: 1px solid rgba(0, 0, 0, 0.192);
-    background-color: #f9f9f9;
+.box{
     width: 308px;
     height: 420px;
     z-index: 0;
     display: absolute;
     margin-top: 130px; 
+}
+.first-box{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    background-color: #f9f9f9;
+}
+.second-box{
+    border: 1px solid #24ba9f;
+    background-color: #24ba9f;
+}
+.third-box{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    background-color: #f9f9f9;
 }
 .first-box h2{
     color: #24ba9f;
@@ -324,7 +344,7 @@ ul li:hover .dropdown {
     position: relative;
     z-index: 1;
     top: -420px;
-    left: 128px;
+    left: calc(50% - 20px);
 }
 
 .circle_two{
@@ -403,15 +423,7 @@ ul li:hover .dropdown {
     margin-top: 90px;
 }
 /* Second Box*/
-.second-box{
-    border: 1px solid #24ba9f;
-    background-color: #24ba9f;
-    width: 308px;
-    height: 420px;
-    z-index: 0;
-    display: absolute;
-    margin-top: 130px; 
-}
+
 .second-box h2{
     color: white;
     font-weight: bolder;
@@ -427,7 +439,7 @@ ul li:hover .dropdown {
     position: relative;
     z-index: 1;
     top: -420px;
-    left: 128px;
+    left: calc(50% - 20px);
 }
 
 .circletwo-two{
@@ -515,18 +527,7 @@ ul li:hover .dropdown {
     margin: auto;
     margin-top: 60px;
 }
-/* Third Box */
 
-
-.third-box{
-    border: 1px solid rgba(0, 0, 0, 0.192);
-    background-color: #f9f9f9;
-    width: 308px;
-    height: 420px;
-    z-index: 0;
-    display: absolute;
-    margin-top: 130px; 
-}
 .third-box h2{
     color: #24ba9f;
     font-weight: bolder;
@@ -543,7 +544,7 @@ ul li:hover .dropdown {
     position: relative;
     z-index: 1;
     top: -420px;
-    left: 128px;
+    left: calc(50% - 20px);
 }
 
 .circle_two-third{
@@ -671,8 +672,9 @@ label {
   display: inline-block;
   position: relative;
   padding-left: 55px;
-  margin-top: :20px;
+  margin-top: 20px;
   margin-right: 10px;
+  margin-left: 9px;
 }
 
 label:before {  
@@ -698,4 +700,59 @@ input[type=checkbox]:checked + label:before {
   background: url('file:///D:/Warsztat_Site_On_Chair/Site-On-Chair/images/form_ok.jpg') left center no-repeat;  
 } 
 
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 132px;
+    letter-spacing: 1px;
+    color: #9b9b9b;
+    font-family: Raleway-Medium, Arial, sans-serif;
+}
 
+footer .container div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit button {
+    margin-left: 60px;
+    margin-top: 30px;   
+    bottom: 6px;
+    background-color: #24ba9f;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialmedia img {
+    margin: 0 2px;
+}
+.socialmedia p {
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: Raleway-SemiBold, Arial, sans-serif;
+}
+
+.socialmedia p span {
+    font-family: Raleway-Bold, Arial, sans-serif;
+}
+
+.socialmedia a {
+    margin: 0;
+    padding: 0 1px;
+}
+
+.socialmedia a:last-of-type {
+    margin: 0 30px 0 0;
+}
